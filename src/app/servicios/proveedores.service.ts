@@ -16,4 +16,10 @@ export class ProveedoresService {
   getProveedores(): any {
     return this.proveedores;
   }
+
+  postProveedor(proveedor: any): void {
+    this.proveedores.push(proveedor);
+  }
+
+
 }

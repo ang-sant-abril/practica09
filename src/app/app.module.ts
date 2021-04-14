@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ListadoProveedoresComponent } from './proveedores/listado-proveedores/listado-proveedores.component';
+import { CrearProveedorComponent } from './proveedores/crear-proveedor/crear-proveedor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListadoProveedoresComponent
+    ListadoProveedoresComponent,
+    CrearProveedorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

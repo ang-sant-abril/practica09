@@ -1,14 +1,10 @@
-<div class="card xl">
-    <h1>Listado de Proveedores</h1>
-    <hr>
-    <table>
-        <tr>
-            <th>Proveedor</th>
-            <th>CIF</th>
-        </tr>
-        <tr *ngFor="let proveedor of proveedores">
-            <td>{{proveedor.nombre}}</td>
-            <td>{{proveedor.cif}}</td>
-        </tr>
-    </table>
-</div>
+<table>
+    <tr>
+        <th>Proveedor</th>
+        <th>CIF</th>
+    </tr>
+    <tr *ngFor="let proveedor of proveedores">
+        <td>{{proveedor.nombre}}</td>
+        <td>{{proveedor.cif}}</td>
+    </tr>
+</table>
